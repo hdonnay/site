@@ -15,7 +15,7 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
-    match (list ["about.rst", "index.markdown", "code.lhs"]) $ do
+    match "*.markdown" $ do
         route   $ setExtension "html"
         compile $ pageCompiler
             >>> applyTemplateCompiler "templates/default.html"
