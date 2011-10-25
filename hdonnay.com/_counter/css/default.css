@@ -29,15 +29,15 @@ blockquote {
   padding:0.5em;
 }
 #container a {
-  color:;
+  color:#586e75;
   font-weight:bold;
   text-decoration:none;
   padding:0.1em 0.2em;
 }
-#container a:visited { color:#000000; }
+#container a:visited { color:#93a1a1; }
 #container a:hover {
-  color:;
-  background:;
+  color:#839496;
+  background:#073642;
 }
 #header h1 {
   text-shadow:0px 1px 3px rgba(0,0,0,0.8);
@@ -50,9 +50,9 @@ blockquote {
   font-size:4em;
   text-align:center;
   font-weight:bold;
-  color:;
+  color:#dc322f;
 }
-#header h1 a { color:; }
+#header h1 a { color:#586e75; }
 #header h1 a:visited { color:; }
 #header h1 a:hover {
   background:none;
