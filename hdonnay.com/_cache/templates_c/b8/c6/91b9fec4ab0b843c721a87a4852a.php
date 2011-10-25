@@ -72,7 +72,7 @@ class __TwigTemplate_b8c691b9fec4ab0b843c721a87a4852a extends Twig_Template
         $this->displayBlock('header', $context, $blocks);
         // line 23
         echo "        </div>
-        <div id=\"menu\" class=\"span-4 pull-20 last\">
+        <div id=\"menu\" class=\"span-4 push-20 last\">
 \t\t\t<div class=\"menu\">
 \t\t\t\t<ul>
 \t\t\t\t\t<li><a href=\"";
