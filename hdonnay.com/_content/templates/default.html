@@ -21,7 +21,7 @@
             <h1><a href="{{ site.root }}">{{ site.title }}</a></h1>
 			{% endblock %}
         </div>
-        <div id="menu" class="span-4 last">
+        <div id="menu" class="span-4">
 			<div class="menu">
 				<ul>
 					<li><a href="{{ site.root }}">Home</a></li>
@@ -30,7 +30,7 @@
 				</ul>
 			</div>
         </div>
-        <div id="content" class="span-20 push-4 last">
+        <div id="content" class="span-20 last">
             <div class="content">
                 {% block content %}
                 {{ content|raw }}
