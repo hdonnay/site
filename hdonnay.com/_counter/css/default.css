@@ -59,12 +59,12 @@ blockquote {
   color:#93a1a1;
 }
 #content #content-inner { margin:1em 2em; }
-#content p a { border-bottom:1px dotted ; }
+#content p a { border-bottom:1px dotted #eee8d5; }
 #content h2 {
   font-family:'Open Sans', sans-serif;
   letter-spacing:0.07em;
   margin-bottom:0.1em;
-  color:#000000;
+  color:#586e75;
 }
 #footer {
   font-size:0.8em;
@@ -92,7 +92,7 @@ blockquote {
 #menu a:link, #menu a:visited { color:#93a1a1; }
 #menu a:hover { background:#eee8d5; }
 .post hr {
-  background:;
+  background:#eee8d5;
   margin-bottom:1.5em;
 }
 .post-meta {
@@ -100,7 +100,7 @@ blockquote {
   font-size:0.7em;
   font-family:'Open Sans', sans-serif;
   font-weight:bold;
-  color:;
+  color:#93a1a1;
   margin:0 0 1.5em 0.5em;
 }
 .post-more { margin-bottom:1.5em; }
