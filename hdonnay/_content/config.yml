@@ -1,0 +1,13 @@
+site:
+    title: hdonnay.com
+    description: the website of Henry Donnay
+    author: Hank
+    pretty_urls: true
+    
+smartypants:
+    enable: true
+
+baker:
+    skip_patterns:
+        - /^index.php/
+
