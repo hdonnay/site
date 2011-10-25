@@ -73,14 +73,9 @@ blockquote {
   clear:both;
 }
 #footer p { margin:1em; }
-#footer a { color:#586e75; }
-#footer a:visited { color:#93a1a1; }
-#footer a:hover {
-  background:none;
-  color:#93a1a1;
-}
 #menu .menu {
-  background:;
+  background:#eee8d5;
+  text-align:right;
   box-shadow:0px 1px 3px rgba(0,0,0,0.8);
   border:2px solid #859900;
   border-radius:8px;
