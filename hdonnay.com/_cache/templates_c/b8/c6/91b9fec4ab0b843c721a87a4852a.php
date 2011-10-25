@@ -87,22 +87,26 @@ class __TwigTemplate_b8c691b9fec4ab0b843c721a87a4852a extends Twig_Template
         // line 29
         echo twig_escape_filter($this->env, $this->env->getExtension('piecrust')->getUrl("about"), "html");
         echo "\">About</a></li>
+\t\t\t\t\t<li><a href=\"";
+        // line 30
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context['site']) ? $context['site'] : null), "root", array(), "any", false, 30), "html");
+        echo "/files/resume.pdf\">Resume</a></li>
 \t\t\t\t</ul>
 \t\t\t</div>
         </div>
         <div id=\"content\" class=\"span-20 last\">
             <div class=\"content\">
                 ";
-        // line 35
+        // line 36
         $this->displayBlock('content', $context, $blocks);
-        // line 38
+        // line 39
         echo "            </div>
         </div>
         <div id=\"footer\" class=\"span-24 last\">
 \t\t\t";
-        // line 41
+        // line 42
         $this->displayBlock('footer', $context, $blocks);
-        // line 45
+        // line 46
         echo "        </div>
     </div>
 </body>
@@ -122,24 +126,24 @@ class __TwigTemplate_b8c691b9fec4ab0b843c721a87a4852a extends Twig_Template
 \t\t\t";
     }
 
-    // line 35
+    // line 36
     public function block_content($context, array $blocks = array())
     {
-        // line 36
+        // line 37
         echo "                ";
         echo (isset($context['content']) ? $context['content'] : null);
         echo "
         \t\t";
     }
 
-    // line 41
+    // line 42
     public function block_footer($context, array $blocks = array())
     {
-        // line 42
+        // line 43
         echo "            <p> All Content Copyright Henry Donnay 2011 </p>
             <p>";
-        // line 43
-        echo $this->getAttribute((isset($context['piecrust']) ? $context['piecrust'] : null), "branding", array(), "any", false, 43);
+        // line 44
+        echo $this->getAttribute((isset($context['piecrust']) ? $context['piecrust'] : null), "branding", array(), "any", false, 44);
         echo "</p>
 \t\t\t";
     }
