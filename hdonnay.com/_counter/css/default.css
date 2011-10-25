@@ -74,12 +74,9 @@ blockquote {
 }
 #footer p { margin:1em; }
 #menu .menu {
-  background:#eee8d5;
+  background:#fdf6e3;
   text-align:right;
-  box-shadow:0px 1px 3px rgba(0,0,0,0.8);
-  border:2px solid #859900;
-  border-radius:8px;
-  padding:1em 0;
+  border-right:2px solid #859900;
 }
 #menu ul {
   margin:0;
