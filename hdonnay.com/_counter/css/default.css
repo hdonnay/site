@@ -12,32 +12,32 @@
 }
 html { min-height:100%; }
 body {
-  background:#d5f1ff;
-  color:#00547f;
+  background:#fdf6e3;
+  color:#657b83;
   font-family:Georgia, serif;
   font-size:110%;
   padding:1em;
   min-height:100%;
 }
 code {
-  background:#6fcdff;
+  background:#002b36;
   padding:0.1em 0.2em;
 }
 blockquote {
-  color:#26617f;
-  background:#6fcdff;
+  color:#839496;
+  background:#002b36;
   padding:0.5em;
 }
 #container a {
-  color:#26617f;
+  color:;
   font-weight:bold;
   text-decoration:none;
   padding:0.1em 0.2em;
 }
-#container a:visited { color:#0f2530; }
+#container a:visited { color:#000000; }
 #container a:hover {
-  color:#a2dfff;
-  background:#00547f;
+  color:;
+  background:;
 }
 #header h1 {
   text-shadow:0px 1px 3px rgba(0,0,0,0.8);
@@ -50,21 +50,21 @@ blockquote {
   font-size:4em;
   text-align:center;
   font-weight:bold;
-  color:#00547f;
+  color:;
 }
-#header h1 a { color:#00547f; }
-#header h1 a:visited { color:#00547f; }
+#header h1 a { color:; }
+#header h1 a:visited { color:; }
 #header h1 a:hover {
   background:none;
-  color:#00547f;
+  color:;
 }
 #content #content-inner { margin:1em 2em; }
-#content p a { border-bottom:1px dotted #26617f; }
+#content p a { border-bottom:1px dotted ; }
 #content h2 {
   font-family:'Lobster', 'Trebuchet MS', sans-serif;
   letter-spacing:0.07em;
   margin-bottom:0.1em;
-  color:#001119;
+  color:#000000;
 }
 #footer {
   font-size:0.8em;
@@ -74,9 +74,9 @@ blockquote {
 }
 #footer p { margin:1em; }
 #menu .menu {
-  background:#00547f;
+  background:;
   box-shadow:0px 1px 3px rgba(0,0,0,0.8);
-  border:2px solid #004366;
+  border:2px solid #000000;
   border-radius:8px;
   padding:1em 0;
 }
@@ -89,10 +89,10 @@ blockquote {
   display:block;
   padding:1em 2em;
 }
-#menu a:link, #menu a:visited { color:#a2dfff; }
-#menu a:hover { background:#004366; }
+#menu a:link, #menu a:visited { color:; }
+#menu a:hover { background:#000000; }
 .post hr {
-  background:#26617f;
+  background:;
   margin-bottom:1.5em;
 }
 .post-meta {
@@ -100,7 +100,7 @@ blockquote {
   font-size:0.7em;
   font-family:Verdana, sans-serif;
   font-weight:bold;
-  color:#26617f;
+  color:;
   margin:0 0 1.5em 0.5em;
 }
 .post-more { margin-bottom:1.5em; }

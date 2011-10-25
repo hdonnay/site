@@ -1,9 +1,20 @@
-/* Blue theme */
-@dark: #00547F;
-@medium_dark: #26617F;
-@medium: #0087CC;
-@medium_light: #00A8FF;
-@light: #A2DFFF;
+/* solarized colors */
+@base03:    #002b36;
+@base02:    #073642;
+@base01:    #586e75;
+@base00:    #657b83;
+@base0:     #839496;
+@base1:     #93a1a1;
+@base2:     #eee8d5;
+@base3:     #fdf6e3;
+@yellow:    #b58900;
+@orange:    #cb4b16;
+@red:       #dc322f;
+@magenta:   #d33682;
+@violet:    #6c71c4;
+@blue:      #268bd2;
+@cyan:      #2aa198;
+@green:     #859900;
 
 .raised {
 	text-shadow: 0px 1px 3px rgba(0,0,0,0.8);
@@ -24,9 +35,9 @@ html {
 }
 
 body {
-	background: lighten(@light, 10%);
-	.vignette(lighten(@light, 10%), 0);
-	color: @dark;
+	background: @base3;
+	.vignette(@base3, 0);
+	color: @base00;
 	font-family: Georgia, serif;
 	font-size: 110%;
 	padding: 1em;
@@ -34,13 +45,13 @@ body {
 }
 
 code {
-	background: darken(@light, 10%);
+	background: @base03;
 	padding: 0.1em 0.2em;
 }
 
 blockquote {
-	color: @medium_dark;
-	background: darken(@light, 10%);
+	color: @base0;
+	background: @base03;
 	padding: 0.5em;
 }
 
