@@ -50,7 +50,7 @@ blockquote {
   font-size:4em;
   text-align:center;
   font-weight:bold;
-  color:#dc322f;
+  color:#268bd2;
 }
 #header h1 a { color:#586e75; }
 #header h1 a:visited { color:#93a1a1; }
@@ -76,7 +76,7 @@ blockquote {
 #menu .menu {
   background:#fdf6e3;
   text-align:right;
-  border-right:2px solid #859900;
+  border-right:2px solid #268bd2;
 }
 #menu ul {
   margin:0;

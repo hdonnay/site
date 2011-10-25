@@ -102,7 +102,7 @@ class __TwigTemplate_b8c691b9fec4ab0b843c721a87a4852a extends Twig_Template
 \t\t\t";
         // line 41
         $this->displayBlock('footer', $context, $blocks);
-        // line 44
+        // line 45
         echo "        </div>
     </div>
 </body>
@@ -136,8 +136,10 @@ class __TwigTemplate_b8c691b9fec4ab0b843c721a87a4852a extends Twig_Template
     public function block_footer($context, array $blocks = array())
     {
         // line 42
-        echo "            <p>";
-        echo $this->getAttribute((isset($context['piecrust']) ? $context['piecrust'] : null), "branding", array(), "any", false, 42);
+        echo "            <p> All Content Copyright Henry Donnay 2011 </p>
+            <p>";
+        // line 43
+        echo $this->getAttribute((isset($context['piecrust']) ? $context['piecrust'] : null), "branding", array(), "any", false, 43);
         echo "</p>
 \t\t\t";
     }
