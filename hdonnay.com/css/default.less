@@ -83,8 +83,8 @@ blockquote {
 	h1 a {
 		color: @base01;
 		&:link {}
-		&:visited { color: @dark; }
-		&:hover { background: none; color: @dark; }
+		&:visited { color: @base1; }
+		&:hover { background: none; color: @base1; }
 		&:active {}
 	}
 }
@@ -122,7 +122,7 @@ blockquote {
 	.menu {
 		background: @dark;
 		box-shadow: 0px 1px 3px rgba(0,0,0,0.8);
-		border: 2px solid darken(@dark, 5%);
+		border: 2px solid @green;
 		border-radius: 8px;
 		padding: 1em 0;
 	}
@@ -141,8 +141,8 @@ blockquote {
 		display: block;
 		padding: 1em 2em;
 		
-		&:link, &:visited { color: @light; }
-		&:hover { background: darken(@dark, 5%); }
+		&:link, &:visited { color: @base1; }
+		&:hover { background: @base2; }
 		&:active {}
 	}
 }
