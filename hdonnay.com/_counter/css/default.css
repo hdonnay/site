@@ -46,7 +46,7 @@ blockquote {
   -moz-mask-image:-moz-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
   -o-mask-image:-o-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
   margin:0.5em auto;
-  font-family:Lobster, 'Trebuchet MS', 'Comic Sans MS', sans-serif;
+  font-family:Open Sans Condensed, sans-serif;
   font-size:4em;
   text-align:center;
   font-weight:bold;
