@@ -14,7 +14,7 @@ html { min-height:100%; }
 body {
   background:#fdf6e3;
   color:#657b83;
-  font-family:Georgia, serif;
+  font-family:'Open Sans', sans-serif;
   font-size:110%;
   padding:1em;
   min-height:100%;
@@ -46,7 +46,7 @@ blockquote {
   -moz-mask-image:-moz-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
   -o-mask-image:-o-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
   margin:0.5em auto;
-  font-family:Open Sans Condensed, sans-serif;
+  font-family:'Open Sans Condensed', sans-serif;
   font-size:4em;
   text-align:center;
   font-weight:bold;
@@ -61,7 +61,7 @@ blockquote {
 #content #content-inner { margin:1em 2em; }
 #content p a { border-bottom:1px dotted ; }
 #content h2 {
-  font-family:'Lobster', 'Trebuchet MS', sans-serif;
+  font-family:'Open Sans', sans-serif;
   letter-spacing:0.07em;
   margin-bottom:0.1em;
   color:#000000;
@@ -98,7 +98,7 @@ blockquote {
 .post-meta {
   text-transform:uppercase;
   font-size:0.7em;
-  font-family:Verdana, sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-weight:bold;
   color:;
   margin:0 0 1.5em 0.5em;
