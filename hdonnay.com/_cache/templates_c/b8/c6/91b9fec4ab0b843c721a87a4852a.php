@@ -87,10 +87,10 @@ class __TwigTemplate_b8c691b9fec4ab0b843c721a87a4852a extends Twig_Template
         // line 29
         echo twig_escape_filter($this->env, $this->env->getExtension('piecrust')->getUrl("about"), "html");
         echo "\">About</a></li>
-\t\t\t\t\t<li><a href=\"";
+                    <li><a href=\"";
         // line 30
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context['site']) ? $context['site'] : null), "root", array(), "any", false, 30), "html");
-        echo "/files/resume.pdf\">Resume</a></li>
+        echo twig_escape_filter($this->env, $this->env->getExtension('piecrust')->getUrl("files/resume.pdf"), "html");
+        echo "\">Resume</a></li>
 \t\t\t\t</ul>
 \t\t\t</div>
         </div>
