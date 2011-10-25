@@ -72,12 +72,10 @@ blockquote {
   text-align:center;
   clear:both;
 }
-#footer p {
-  margin:1em;
-  color:#586e75;
-}
-#footer p:visited { color:#93a1a1; }
-#footer p:hover {
+#footer p { margin:1em; }
+#footer a { color:#586e75; }
+#footer a:visited { color:#93a1a1; }
+#footer a:hover {
   background:none;
   color:#93a1a1;
 }
