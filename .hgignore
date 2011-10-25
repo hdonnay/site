@@ -1,0 +1,34 @@
+# Temp files from Windows/MacOSX/etc.
+.*~$
+\.DS_Store
+Thumbs\.db
+
+# App cache files.
+_cache/(?!\.empty)
+^tests/tmp/(?!\.empty)
+
+# Libs files we don't need.
+.gitignore
+.gitmodules
+^_piecrust/libs/Geshi/docs/
+^_piecrust/libs/sfYaml/doc/
+^_piecrust/libs/sfYaml/test/
+^_piecrust/libs/Twig/bin/
+^_piecrust/libs/Twig/doc/
+^_piecrust/libs/Twig/test/
+^_piecrust/libs/Twig/phpunit\.xml
+^_piecrust/libs/LessPhp/docs/
+^_piecrust/libs/LessPhp/tests/
+^_piecrust/libs/Mustache/examples/
+^_piecrust/libs/Mustache/test/
+^_piecrust/libs/Log/docs/
+^_piecrust/libs/Log/examples/
+^_piecrust/libs/Log/misc/
+^_piecrust/libs/Log/tests/
+
+syntax:glob
+# Log files
+*.log
+
+# Baked sample website.
+website/_counter
