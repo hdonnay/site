@@ -68,7 +68,7 @@ blockquote {
   font-family:'Open Sans', sans-serif;
   letter-spacing:0.07em;
   margin-bottom:0.1em;
-  color:#dc322f;
+  color:#586e75;
 }
 #footer {
   font-size:0.8em;
@@ -79,7 +79,6 @@ blockquote {
 #footer p { margin:1em; }
 #menu .menu {
   background:#fdf6e3;
-  text-align:right;
   border-right:2px solid #586e75;
 }
 #menu h2 { color:#586e75; }
@@ -89,6 +88,7 @@ blockquote {
   color:#657b83;
   list-style:none;
 }
+#menu ul li { text-align:right; }
 #menu a {
   display:block;
   padding:0em .5em;
