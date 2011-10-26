@@ -89,7 +89,10 @@ blockquote {
   padding:0em .5em;
 }
 #menu a:visited { color:#93a1a1; }
-#menu a:hover { background:#eee8d5; }
+#menu a:hover {
+  color:#657b83;
+  background:#eee8d5;
+}
 .post hr {
   background:#eee8d5;
   margin-bottom:1.5em;
