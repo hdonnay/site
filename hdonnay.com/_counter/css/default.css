@@ -21,11 +21,12 @@ body {
 }
 code {
   background:#002b36;
+  color:#839496;
   padding:0.1em 0.2em;
 }
 blockquote {
-  color:#839496;
-  background:#002b36;
+  color:#657b83;
+  background:#93a1a1;
   padding:0.5em;
 }
 #container a {
@@ -85,9 +86,9 @@ blockquote {
 }
 #menu a {
   display:block;
-  padding:0em 1em;
+  padding:0em .5em;
 }
-#menu a:link, #menu a:visited { color:#93a1a1; }
+#menu a:visited { color:#93a1a1; }
 #menu a:hover { background:#eee8d5; }
 .post hr {
   background:#eee8d5;
@@ -101,4 +102,7 @@ blockquote {
   color:#93a1a1;
   margin:0 0 1.5em 0.5em;
 }
-.post-more { margin-bottom:1.5em; }
+.post-more {
+  color:#586e75;
+  margin-bottom:1.5em;
+}
