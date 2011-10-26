@@ -10,7 +10,7 @@
     <meta name="generator" content="PieCrust {{ piecrust.version }}" />
     <meta name="template-engine" content="Twig" />
 {% include('blueprint.html') %}
-	{{ google.webfonts('Lobster') }}
+	{{ google.webfonts('Open Sans') }}
 	{{ less.stylesheet(baker, site.root ~ 'css/default') }}
     {{ less.less_js(baker, site.root) }}
 </head>
@@ -40,8 +40,7 @@
         </div>
         <div id="footer" class="span-24 last">
 			{% block footer %}
-            <p> All Content Copyright Henry Donnay 2011 </p>
-            <p>{{ piecrust.branding|raw }}</p>
+            <p> All Content Copyright Henry Donnay 2011 &mdash; {{ piecrust.branding|raw }} &mdash; Colors from <a href="http://ethanschoonover.com/solarized">Solarized</a></p>
 			{% endblock %}
         </div>
     </div>
