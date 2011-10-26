@@ -1,0 +1,4 @@
+#!/bin/sh
+./_piecrust/chef bake $1 &&\
+git commit -am "$2" &&\
+git push site
