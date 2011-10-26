@@ -10,7 +10,10 @@
   background:-webkit-radial-gradient(center ,circle cover,,#000000);
   background:radial-gradient(center ,circle cover,,#000000);
 }
-html { min-height:100%; }
+html {
+  min-height:100%;
+  color:#657b83;
+}
 body {
   background:#fdf6e3;
   color:#657b83;
@@ -76,7 +79,7 @@ blockquote {
 #footer p { margin:1em; }
 #menu .menu {
   background:#fdf6e3;
-  text-align:right;
+  text-align:left;
   border-right:2px solid #586e75;
 }
 #menu ul {
@@ -84,6 +87,7 @@ blockquote {
   padding:0;
   list-style:none;
 }
+#menu ul li { text-align:right; }
 #menu a {
   display:block;
   padding:0em .5em;
