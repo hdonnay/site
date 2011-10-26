@@ -83,10 +83,7 @@ blockquote {
   text-transform:lowercase;
   text-align:right;
 }
-#menu ul li li {
-  color:#dc322f;
-  margin-right:2em;
-}
+#menu ul li li a { padding:0em 1em; }
 #menu a {
   display:block;
   padding:0em .5em;
