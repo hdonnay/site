@@ -84,6 +84,7 @@ blockquote {
   text-align:right;
 }
 #menu ul li li a { padding:0em 1em; }
+#menu ul li li a:link { color:#dc322f; }
 #menu a {
   display:block;
   padding:0em .5em;
