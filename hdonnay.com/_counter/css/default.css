@@ -47,7 +47,7 @@ blockquote {
   margin:0.5em auto;
   font-family:'Open Sans Condensed', sans-serif;
   font-size:4em;
-  text-align:center;
+  text-align:left;
 }
 #header h1 a:hover {
   color:#586e75;
