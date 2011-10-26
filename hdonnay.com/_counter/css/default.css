@@ -83,7 +83,7 @@ blockquote {
   text-transform:lowercase;
   text-align:right;
 }
-#menu ul li { background:#dc322f; }
+#menu ul li { background:#586e75; }
 #menu ul li ul li { padding:0em 1em 0em 0em; }
 #menu a {
   background:#fdf6e3;
