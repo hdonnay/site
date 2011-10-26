@@ -78,16 +78,17 @@ blockquote {
 }
 #footer p { margin:1em; }
 #menu .menu {
+  color:#586e75;
   background:#fdf6e3;
-  text-align:left;
+  text-align:right;
   border-right:2px solid #586e75;
 }
 #menu ul {
   margin:0;
   padding:0;
+  color:#657b83;
   list-style:none;
 }
-#menu ul li { text-align:right; }
 #menu a {
   display:block;
   padding:0em .5em;
