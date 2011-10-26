@@ -66,8 +66,6 @@ blockquote {
 #content p a { border-bottom:1px dotted #eee8d5; }
 #content h2 {
   font-family:'Open Sans', sans-serif;
-  letter-spacing:0.07em;
-  margin-bottom:0.1em;
   color:#586e75;
 }
 #footer {
