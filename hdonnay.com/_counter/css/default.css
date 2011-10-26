@@ -50,7 +50,7 @@ blockquote {
   text-align:center;
 }
 #header h1 a:hover {
-  color:none;
+  color:#586e75;
   background:none;
 }
 #content #content-inner { margin:1em 2em; }
