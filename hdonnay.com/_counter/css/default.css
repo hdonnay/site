@@ -88,7 +88,7 @@ blockquote {
   border-top:2px solid #586e75;
   border-bottom:2px solid #586e75;
 }
-#menu ul li ul li { padding:0em 0em 0em 2em; }
+#menu ul li ul li { padding:0em 0em 0em .5em; }
 #menu a {
   background:#fdf6e3;
   display:block;
