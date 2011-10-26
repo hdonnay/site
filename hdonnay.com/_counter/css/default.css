@@ -49,6 +49,10 @@ blockquote {
   font-size:4em;
   text-align:center;
 }
+#header h1 a:hover {
+  color:none;
+  background:none;
+}
 #content #content-inner { margin:1em 2em; }
 #content p a { border-bottom:1px dotted #eee8d5; }
 #content h2 {
