@@ -38,7 +38,6 @@ blockquote {
   text-decoration:none;
   padding:0.1em 0.2em;
 }
-#container a:visited { color:#93a1a1; }
 #container a:hover {
   color:#657b83;
   background:#eee8d5;
@@ -53,11 +52,9 @@ blockquote {
   font-family:'Open Sans Condensed', sans-serif;
   font-size:4em;
   text-align:center;
-  font-weight:bold;
   color:#268bd2;
 }
 #header h1 a { color:#586e75; }
-#header h1 a:visited { color:#93a1a1; }
 #header h1 a:hover {
   background:none;
   color:#93a1a1;
@@ -96,7 +93,6 @@ blockquote {
   display:block;
   padding:0em .5em;
 }
-#menu a:visited { color:#93a1a1; }
 #menu a:hover {
   color:#657b83;
   background:#eee8d5;
