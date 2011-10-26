@@ -38,7 +38,12 @@ blockquote {
   text-decoration:none;
   padding:0.1em 0.2em;
 }
+#container a:hover {
+  color:#657b83;
+  background:#eee8d5;
+}
 #header h1 {
+  color:#586e75;
   margin:0.5em auto;
   font-family:'Open Sans Condensed', sans-serif;
   font-size:4em;
@@ -77,10 +82,6 @@ blockquote {
 #menu a {
   display:block;
   padding:0em .5em;
-}
-#menu a:hover {
-  color:#657b83;
-  background:#eee8d5;
 }
 .post hr {
   background:#eee8d5;
