@@ -38,20 +38,7 @@ blockquote {
   text-decoration:none;
   padding:0.1em 0.2em;
 }
-#container a:hover {
-  color:#657b83;
-  background:#eee8d5;
-}
-#header {
-  background:#002b36;
-  color:#839496;
-}
 #header h1 {
-  text-shadow:0px 1px 3px rgba(0,0,0,0.8);
-  mask-image:gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
-  -webkit-mask-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
-  -moz-mask-image:-moz-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
-  -o-mask-image:-o-gradient(linear,left bottom,left top,color-stop(0,rgba(0,0,0,0.8)),color-stop(0.6,white));
   margin:0.5em auto;
   font-family:'Open Sans Condensed', sans-serif;
   font-size:4em;
